@@ -88,9 +88,9 @@ function TodoList() {
         <button onClick={ongetData}>Get Data</button>
         <button onClick={ongetDatabyID}>Get Data by ID</button>
         <ul className='todo-list js-todo-list'>
-          {console.log("data",data)}
-          {console.log("list",list)}
-          {list?.map((v, i) => (
+          {/* {console.log("data",data)}
+          {console.log("list",list)} */}
+          {data?.todolist.map((v, i) => (
             <Todo
               key={i}
               id={i}
